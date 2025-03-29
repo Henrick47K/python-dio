@@ -1,4 +1,5 @@
-texto = input("Informe um texto: ")
+# texto = input("Informe um texto: ")
+texto = ""
 VOGAIS = "AEIOU"
 
 for letra in texto:
@@ -6,3 +7,4 @@ for letra in texto:
         print(letra, end="")
 else:
     print()
+    print("Execute no final do laço")
