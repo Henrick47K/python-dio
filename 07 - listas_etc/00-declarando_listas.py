@@ -68,22 +68,32 @@
 
 # LISTA COMPREENSAO
 
-numeros = [1, 2, 30, 21, 2, 9, 65, 34]
-pares = []
-impares = []
+# numeros = [1, 2, 30, 21, 2, 9, 65, 34]
+# pares = []
+# impares = []
+
+# for numero in numeros:
+#     if numero % 2 == 0:
+#         pares.append(numero)
+#     elif numero % 2 == 1:
+#         impares.append(numero)
+
+# print(pares)
+# print(impares)
+
+# # LISTA FILTRO 2 
+
+# numeros = [1, 2, 30, 21, 2, 9, 65, 34]
+# pares = [numero for numero in numeros if numero % 2 == 0]
+
+# print(pares)
+
+# LISTA MODIFICANDO VALORES VERSAO 1
+
+numeros = [1, 30, 21, 2, 9, 65, 34]
+quadrado = []
 
 for numero in numeros:
-    if numero % 2 == 0:
-        pares.append(numero)
-    elif numero % 2 == 1:
-        impares.append(numero)
+    quadrado.append(numero ** 2)
 
-print(pares)
-print(impares)
-
-# LISTA FILTRO 2 
-
-numeros = [1, 2, 30, 21, 2, 9, 65, 34]
-pares = [numero for numero in numeros if numero % 2 == 0]
-
-print(pares)
+print(quadrado)
