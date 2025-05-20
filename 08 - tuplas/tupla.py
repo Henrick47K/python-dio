@@ -59,9 +59,12 @@
 # print(cores.count("azul"))
 # print(cores.count("amarelo"))
 
-linguagens = ("python", "js", "c", "java", "csharp")
+# linguagens = ("python", "js", "c", "java", "csharp")
 
 # print(linguagens.index("java"))
 # print(linguagens.index("python"))
 
-print(len(linguagens))
+# print(len(linguagens))
+
+ carros = ("gol") 
+print(isinstance(carros, tuple))
